@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/hello")
 public class HelloController {
 
-    @GetMapping("")
+    @GetMapping
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
         return "Hello " + name
                 + "<br/>"
-                + "Add api/hello?name=test";
+                + "You also can Add api/hello?name=test";
     }
 
 }

@@ -1,4 +1,4 @@
-package com.bca.ata;
+package com.bca.rnd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
